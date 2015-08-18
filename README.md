@@ -1,7 +1,7 @@
 ## Linux Yaz Kampı 2015, Web Güvenliği CTF
 Linux Yaz Kampı 2015'te Web Güvenliği sınıfı için hazırlamış olduğum CTF soruları.
 
-# Çözümler
+## Çözümler
 
 #### 1- Login Olamıyorum :(
 Kullanıcı girişi yapıldığında, kullanıcıya ait veriler user class'ından türetilmiş bir object'e kaydoluyor. Ve object'in serialize edilmiş hali cookie olarak clientte tutuluyor. Farklı bir kullanıcı olarak giriş yapıp, cookie editleyerek admin user'ıymış gibi sistemi kandırabilmeniz gerekiyor.
@@ -23,7 +23,7 @@ Klasik XSS sorusudur. "alert", "script", "/", "onerror", "'", '"' karakter ve ke
 Elimizde txt formatında bir emlak datası var. Satır satır her data kendi içinde space'e göre explode etmeniz gerekiyor. İlk sayı arsanın  eni, 2. sayı arsanın boyu, 3. sayı ise arsanın metrekare fiyatını belirtiyor. Gerekli kod betiği ile gerekli işlemler yapılıp, en kıymetli arsanın kaç metrekare olduğunu integer formatında girmeniz gerekiyor.
 
 # 
-[#lyk2015](https://twitter.com/search?q=%23lyk2015&src=typd), [Ömer Çıtak](http//omercitak.com/)
+[#lyk2015](https://twitter.com/search?q=%23lyk2015&src=typd), [Ömer Çıtak](http://omercitak.com/)
 
 
 
